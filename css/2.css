@@ -1,0 +1,303 @@
+@font-face{
+    font-family: IRANsansweb;
+    src: url(../fonts/IRANSansWeb.eot);
+    src: url(../fonts/IRANSansWeb.ttf) format('truetype') , url(../fonts/IRANSansWeb.woff) format('woff'), url(../fonts/IRANSansWeb.woff2) format('woff2');
+}
+@font-face{
+    font-family: Vazir;
+    src: url(../fonts/Vazir.eot);
+    src: url(../fonts/Vazir.ttf) format('truetype') , url(../fonts/Vazir.woff) format('woff'), url(../fonts/Vazir.woff2) format('woff2');
+}
+@keyframes aside{
+    from{left: 0;
+
+    }
+    to{
+        left:15px ;
+    }
+}
+*,*::after,*::before{
+    box-sizing: border-box;
+    text-decoration: none;  important  ;
+}
+body{
+    margin: 0;
+}
+.container{
+position: relative;
+}
+.container_w_m{
+    margin-left: 180px;
+    margin-right: 210px;
+}
+.part1_nav{
+   
+    align-items: center;
+    background-color: #3f3f3f;    
+    display: flex;      
+    justify-content: space-between;
+    left: 0;
+    position: absolute;
+    right: 0;
+}
+.part1_nav_ul{
+  margin-right: 210px;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+
+.part1_nav_ul a{
+    font-family: Vazir;
+    color: #fff;
+    font-size: small;
+    padding: 10px;
+    transition: all 0.5s ease-in;
+    
+
+}
+
+.part1_nav_ul1 li a{
+    font-size: large;
+}
+.part1_nav_ul_a1 :hover{
+    color: darkblue;
+
+}
+
+.part1_nav_ul:nth-child(2) :hover a{
+   color: #ad832d;
+}
+.part2_sec{
+    align-items: center;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: end;
+    position: relative;
+    top: 4rem;
+}
+.part2 section h3{
+    direction: rtl;
+    font-family:  IRANsansweb;
+    margin-left: auto;
+}
+.part2>img{
+    margin-left: 210px;
+}
+.part3{
+    align-items: end;
+    border-bottom: 3px solid #cccccc;
+    display: flex;
+    justify-content:space-between;
+
+}
+.part3>form{
+    border-bottom: 2px solid #818181;
+}
+.part3>ul{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+    /* ---------------------------------------------------1.problem */
+.part3 ul li a{
+
+    color: #000;
+    font-family: Vazir ;
+    font-size: large;
+    font-weight: bold;
+    padding: 10px;
+}
+.part3 ul li a:hover{
+    color: #e74d39;
+}
+.part4{
+    align-items: center;
+    display:flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-top: 15px;
+   
+}
+.part4 section div{
+    position: relative;
+
+}
+.part4 div div{
+    background-color: #3131318f;
+    bottom: 5rem;
+    height: 30px;
+    left: 10rem;
+    position: relative;
+    text-align: center;
+    width:80px;
+}
+.part4 div a{
+    color: #fff;
+    direction: rtl;
+    font-family: IRANsansweb; 
+    font-size: large;
+    list-style: none;
+     }
+.part4 div img{
+    position: relative;
+ }
+.part4 article img{
+    height: 100%;
+    width: 600px;
+   position: relative;
+   right: 220px;
+   z-index: -1;
+}
+.part4 article div a{
+    background-color: #00000042;
+    bottom: 5rem;
+    color: #fff;
+    direction: rtl;
+    font-family: IRANsansweb; 
+    font-size: larger;
+    position: relative;
+    right: 3.5rem;
+    z-index: 10;
+}
+.part5{
+    /* position:relative; */
+    display: flex;
+    justify-content: space-between;
+}
+.part5_asi_h3{
+    align-items: center;
+    border-bottom: 10px solid #e74d39;
+    display: flex;
+    height: 50px;
+    justify-content: end;
+    width:310px;
+
+}
+.part5_asi_h3 h3 , .part5-sec-h3 h3 {
+   
+    background-color: #e74d39;
+    color: #fff;
+    direction: rtl;
+    font-family:IRANsansweb; 
+    padding: 10px 10px 5px 5px;
+}
+
+
+
+.part5_asi_list{
+    border-radius: 5px;
+    border: 1px solid #d2d2d2;
+    box-shadow: 0 0 8px #75757d;
+    height: 500px;
+    margin-left: 60px;
+    margin-top: 10px;
+    width: 250px;
+}
+.part5_asi_list_box{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    margin: 10px ;
+   position: relative;   
+}
+.part5_asi_list_box:hover{
+    animation-name: aside;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+}
+.part5_asi_list >div >img{
+    height: 50px;
+    margin-left: 10px;
+    margin-right: 20px;
+    width: 40px;
+}
+.part5_asi_list >div >div{
+    direction: rtl;
+    font-family:IRANsansweb ;
+    font-size: smaller;
+    font-weight: bold;
+}
+.part5 section{
+   position: relative;
+   right:300px;
+}
+.part5_sec_h3{
+    align-items: center;
+    border-bottom: 10px solid #e74d39;
+    display: flex;
+    height: 50px;
+    justify-content: end;
+    margin-left: auto;
+    width:550px;
+
+}
+.part5_sec_list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:0;
+
+}
+.part5_sec_row{
+    align-items: center;
+    display: flex;
+    height: 280px;
+    justify-content: space-between;
+    margin:0;
+    text-align: center;
+}
+.part5_sec_row_box{
+
+    border-radius: 5%;
+    border: 1px solid #d2d2d2;
+    box-shadow: 0 0 8px #75757d;
+    display: flex;
+    flex-direction: column;
+    height: 255px;
+    width: 120px;
+}
+.part5_sec_row_box img{
+    height:100px ;
+    margin-top: 5px;
+    padding: 0;
+    width:120px ;
+}
+.part5_sec_row_box div{
+    font-family: IRANsansweb;
+    font-size: medium;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+}
+
+.part5_sec_row_box div a{
+    
+    background-color: #e74d396e;
+    font-weight: lighter;
+    margin: 0;
+   /* width: 120px; */
+   align-self: stretch;
+   color: white;
+   font-size: small;
+   padding: 0;
+}
+.part5_sec_row_box div a:hover{
+    background-color: #e74d39;
+}
+.part5_sec_row_box img~ p{
+      border-bottom:1px solid #000;
+      font-family: IRANsansweb;
+      font-size: large;
+      font-weight: bold;
+      text-align: center;
+      width: 120px;
+    padding-bottom: 10px;
+  }
+  .part6>div{
+    background-color:#3f3f3f ;
+    height: 50px;
+    margin-right: 220px;
+  }
